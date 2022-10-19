@@ -20,5 +20,14 @@ const SecondaryButton = ({ title }) => {
   )
 }
 
+const altsecondary = "w-full text-lg px-5 py-1  my-4 mx-auto bg-white text-green rounded-md border border-green border-solid hover:bg-red hover:text-white  md:text-sm lg:text-lg"
+const AltSecondaryButton = ({ title }) => {
+  return (
+    <button
+      className={altsecondary}
+    >{title}</button>
+  )
+}
 
-export { PrimaryButton, SecondaryButton }
+
+export { PrimaryButton, SecondaryButton, AltSecondaryButton }

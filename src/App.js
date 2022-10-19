@@ -6,6 +6,8 @@ import SignUp from './Pages/SignUp';
 import PasswordConfirmation from './Pages/PasswordConfirmation';
 import LogIn from './Pages/LogIn';
 import LandingPage from './Pages/LandingPage';
+import Registration from './Pages/Registration';
+import BuyerRegistration from './Pages/BuyerRegistration';
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
         <Route path="/login" element={<LogIn />} />
         <Route path="/resetpassword" element={<ResetPassword />} />
         <Route path="/passwordConfirmation" element={<PasswordConfirmation />} />
+        <Route path="/registration" element={<Registration />} />
+        <Route path="/buyerregistration" element={<BuyerRegistration />} />
       </Routes>
     </div>
   );

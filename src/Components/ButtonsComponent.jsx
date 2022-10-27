@@ -10,6 +10,7 @@ const PrimaryButton = ({ title }) => {
   )
 }
 
+
 const secondary = "w-full text-lg px-5 py-1  my-4 mx-auto bg-white text-green rounded-md border border-green border-solid hover:bg-green hover:text-white  md:text-sm lg:text-lg"
 
 const SecondaryButton = ({ title }) => {

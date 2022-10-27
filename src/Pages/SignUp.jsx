@@ -38,16 +38,17 @@ function SignUp() {
           <h4 className='text-xs font-bold text-red'>Keep me logged in</h4>
         </div>
 
-        <Link to=''>
+        <Link to='/registration'>
           <PrimaryButton
             title="Sign Up" />
         </Link>
 
         <h4 className='text-base text-center font-bold text-red'>or</h4>
 
-
-        <SecondaryButton
-          title="Sign Up With Facebook" />
+        <Link to=''>
+          <SecondaryButton
+            title="Sign Up With Facebook" />
+        </Link>
       </form>
     </div>
   )

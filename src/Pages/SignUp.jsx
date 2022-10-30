@@ -10,7 +10,7 @@ function SignUp() {
       <HeaderComponent
         title="Create New Account"
       />
-      <form className='w-full mx-auto px-8 py-4 my-4 flex flex-col md:shadow-full md:w-2/3 rounded-md lg:w-1/3'>
+      <form className='w-full bg-white mx-auto px-8 py-4 my-4 flex flex-col md:shadow-full md:w-2/3 rounded-md lg:w-1/3 backdrop-blur-sm backdrop-brightness-50'>
 
         <input
           className={inputStyle}

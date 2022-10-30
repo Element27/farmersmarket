@@ -31,23 +31,6 @@ function ShoppingList() {
   ]
 
   let selection = []
-  // let isClicked = false;
-
-  // let activeClass = []
-
-  // const handleSelection = (e) => {
-  //   const indexOfTarget = selection.indexOf(e.target.value)
-
-  //   if (indexOfTarget !== -1) {
-  //     selection.splice(indexOfTarget, 1)
-  //   } else {
-  //     selection.push(e.target.value)
-  //   }
-
-  //   isClicked = !isClicked
-  //   console.log(selection)
-  // }
-
 
   const checkSelection = () => {
     if (selection.length >= 3) {

@@ -12,7 +12,8 @@ module.exports = {
       'soft-black': '#121212',
     },
     backgroundImage: {
-      'hero': "url('image not gotten yet')",
+      'hero': "url(./heroBg.png)",
+      'gbg': "url(./greenbg.png)",
     },
     boxShadow: {
       'full': '0 3px 10px rgb(0 0 0 / 0.2)',
